@@ -8,3 +8,11 @@ module Queries =
         FeedId : Guid
         Name: string
     }
+
+    type FoundFeedRendition = {
+        FeedId : Guid
+        Name : string
+        Url : string
+        Subscribed : bool
+        LastEpisodeDate : DateTime option
+    }

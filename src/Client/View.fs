@@ -25,11 +25,13 @@ let view (model:Model) (dispatch:Msg -> unit) =
                 match pg with
                 | Login -> Pages.Login.View.view()
                 | LinkSonos (linkcode,householdId) -> Pages.LinkSonos.View.view { LinkCode = linkcode; HouseholdId = householdId }
-                | _ -> failwith "Unknown anonymous page"
+                | ResetPassword _ | Registration | ForgottenPassword | AccountActivation _ -> failwith "not implemented"
+
             | Secured (pg, user) ->
                 match pg with
                 | Subscriptions -> Pages.Subscriptions.View.view ()
-                | _ -> failwith "Unknown secured page"
+                | AddSubscription -> Pages.AddSubscription.View.view ()
+                | Feeds | Users | MyAccount -> failwith "Not implemented"
 
     React.router [
         router.pathMode

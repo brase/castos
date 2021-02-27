@@ -19,8 +19,8 @@ jobs:
         dotnet-version: ${{ matrix.dotnet }}
     - name: Restore tools
       run: dotnet tool restore
-    - name: Restore dependencies
-      run: dotnet restore
+    #- name: Restore dependencies
+    #  run: dotnet restore
     - name: Build
       run: dotnet fake build
 #    - name: Test

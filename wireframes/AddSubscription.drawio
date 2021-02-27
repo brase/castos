@@ -1,0 +1,64 @@
+<mxfile host="65bd71144e" modified="2021-02-27T21:04:12.750Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.53.2 Chrome/87.0.4280.141 Electron/11.2.1 Safari/537.36" etag="_F2sTkmUQhM9994HigaB" version="14.2.4" type="embed">
+    <diagram id="j_PBQsE2i4ZW_I3VKdaS" name="Page-1">
+        <mxGraphModel dx="1188" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="vkr0AGoaXKC_Y7aUOkju-1" value="Search" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.searchBox;strokeColor=#999999;mainText=;strokeColor2=#008cff;fontColor=#666666;fontSize=17;align=left;spacingLeft=3;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="130" width="510" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="vkr0AGoaXKC_Y7aUOkju-2" value="Find" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="610" y="130" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="vkr0AGoaXKC_Y7aUOkju-3" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="220" width="110" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="vkr0AGoaXKC_Y7aUOkju-4" value="The first podcast" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=22;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="220" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="vkr0AGoaXKC_Y7aUOkju-6" value="Subscribe" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="610" y="260" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="vkr0AGoaXKC_Y7aUOkju-7" value="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut&amp;nbsp;" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="270" width="380" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="vkr0AGoaXKC_Y7aUOkju-8" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="340" width="110" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="vkr0AGoaXKC_Y7aUOkju-9" value="The second podcast" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=22;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="340" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="vkr0AGoaXKC_Y7aUOkju-10" value="Subscribe" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="610" y="380" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="vkr0AGoaXKC_Y7aUOkju-11" value="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut&amp;nbsp;" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="390" width="380" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="vkr0AGoaXKC_Y7aUOkju-12" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="460" width="110" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="vkr0AGoaXKC_Y7aUOkju-13" value="The third podcast" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=22;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="460" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="vkr0AGoaXKC_Y7aUOkju-14" value="Subscribe" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="610" y="500" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="vkr0AGoaXKC_Y7aUOkju-15" value="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut&amp;nbsp;" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="510" width="380" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="vkr0AGoaXKC_Y7aUOkju-16" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="590" width="110" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="vkr0AGoaXKC_Y7aUOkju-17" value="The fourth podcast" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=22;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="590" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="vkr0AGoaXKC_Y7aUOkju-18" value="Subscribed&amp;nbsp;&lt;span style=&quot;color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 14px ; font-weight: 400&quot;&gt;✓&lt;/span&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#d79b00;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#ffe6cc;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="610" y="630" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="vkr0AGoaXKC_Y7aUOkju-19" value="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut&amp;nbsp;" style="text;spacingTop=-5;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="640" width="380" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

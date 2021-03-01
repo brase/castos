@@ -12,9 +12,31 @@ open Domain
 open Murocast.Client.SharedView
 open Murocast.Client.Template
 
+let searchFormView() =
+    Bulma.columns [
+        Bulma.column [
+            Bulma.field.div[
+                Bulma.field.hasAddons
+                prop.children [
+                    Bulma.control.div [
+                        Bulma.input.text [
+                            prop.placeholder "Find podcasts"
+                        ]
+                    ]
+                    Bulma.control.div [
+                        Bulma.button.a [
+                            Bulma.color.isPrimary
+                            prop.text "Search"
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ]
+
 let view = React.functionComponent(fun () ->
     let model, dispatch = React.useElmish(State.init, State.update, [| |])
 
-    Html.span " · "
+    searchFormView()
     |> inTemplate
 )

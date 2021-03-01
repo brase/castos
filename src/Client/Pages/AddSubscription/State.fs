@@ -1,5 +1,6 @@
 module Murocast.Client.Pages.AddSubscription.State
 
+open System
 open Elmish
 open Domain
 open Murocast.Client.Server
@@ -12,9 +13,18 @@ let getSubscriptions() : Fable.Core.JS.Promise<SubscriptionRendition list> =
         return! getJsonPromise "/api/subscriptions"
     }
 
+let getMessages() =
+    Ok [{  FeedId = Guid.NewGuid()
+           Name = "Logbuch Netzpolitik"
+           Url = "https://logbuchnetzpolitik.fm/feed"
+           Subscribed = false
+           LastEpisodeDate = Some (DateTime(2021,1,12)) }]
+
 let init () =
     {Feeds = []}, []
 
 let update (msg:Msg) (model:Model) : Model * Cmd<Msg> =
     match msg with
-    | _ -> model, []
+    | FindFeeds s ->
+        model, Cmd.ofMsg (FoundFeedsLoaded (getMessages()))
+    | FoundFeedsLoaded feeds -> model, []

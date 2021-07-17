@@ -16,3 +16,9 @@ module Queries =
         Subscribed : bool
         LastEpisodeDate : DateTime option
     }
+
+[<RequireQualifiedAccess>]
+module Request =
+    type FindFeeds = { Searchstring : string }
+    module FindFeeds =
+        let init = { Searchstring = "" }

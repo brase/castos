@@ -20,7 +20,7 @@ let view (model:Model) (dispatch:Msg -> unit) =
             | Secured (pg, user) ->
                 match pg with
                 | Subscriptions -> Pages.Subscriptions.View.view ()
-                | AddSubscription -> Pages.AddSubscription.View.view ()
+                | AddSubscription -> Pages.AddSubscription.View.AddSubscriptionView ()
                 | Feeds | Users | MyAccount -> failwith "Not implemented"
 
     React.router [

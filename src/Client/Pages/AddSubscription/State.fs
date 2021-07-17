@@ -5,6 +5,7 @@ open Elmish
 open Domain
 open Murocast.Client.Server
 
+open Murocast.Shared.Core.Subscriptions.Communication
 open Murocast.Shared.Core.Subscriptions.Communication.Queries
 open Murocast.Client.SharedView
 
@@ -21,10 +22,16 @@ let getMessages() =
            LastEpisodeDate = Some (DateTime(2021,1,12)) }]
 
 let init () =
-    {Feeds = []}, []
+    { Feeds = []
+      FindFeedsForm = Request.FindFeeds.init }, []
 
 let update (msg:Msg) (model:Model) : Model * Cmd<Msg> =
     match msg with
+    | FormChanged f ->
+        { model with FindFeedsForm = f }, []
     | FindFeeds s ->
         model, Cmd.ofMsg (FoundFeedsLoaded (getMessages()))
-    | FoundFeedsLoaded feeds -> model, []
+    | FoundFeedsLoaded result ->
+        match result with
+        | Ok feeds -> { model with Feeds = feeds}, []
+        | Error e -> model, ServerResponseViews.showErrorToast e
